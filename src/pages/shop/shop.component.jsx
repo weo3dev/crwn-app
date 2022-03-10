@@ -2,7 +2,7 @@ import React from 'react';
 
 import SHOP_DATA from './shop.data';
 
-class shopPage extends React.Component {
+class ShopPage extends React.Component {
     constructor(props) {
         super(props);
 
@@ -17,3 +17,5 @@ class shopPage extends React.Component {
         )
     }
 }
+
+export default ShopPage;
