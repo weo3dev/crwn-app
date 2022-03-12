@@ -2,8 +2,8 @@ import React from 'react';
 
 import './crown-button.styles.scss';
 
-const CrownButton = ({children, ...remainProps}) => (
-    <button className='crown-button' {...remainProps}>
+const CrownButton = ({children, isGoogleSignIn, ...remainProps}) => (
+    <button className={`${isGoogleSignIn ? 'google-signin' : '' } crown-button`} {...remainProps}>
         {children}
     </button>
 )
